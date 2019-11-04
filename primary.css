@@ -1,0 +1,75 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">);
+
+header, footer, article, aside
+{
+    border: 2px solid red;
+}
+
+html 
+{
+    background-image: url(https://us.123rf.com/450wm/slanapotam/slanapotam1706/slanapotam170600050/80715819-geometric-random-lines-pattern-abstract-technology-dark-background-with-red-and-grey-geometric-shape.jpg?ver=6);
+}
+
+body 
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+#container 
+{
+    width: 50vw;
+    margin: 0 auto;
+    background-color: black;
+    padding: 15px;
+}
+
+header 
+{
+    height: 50px;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: lightgoldenrodyellow
+}
+
+#portrait_img 
+{
+    display: block;
+    border: 5px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+aside 
+{
+    float: left;
+    width: 23vw;
+    padding: 1em 1em 0em 1em;
+    height: 70vh;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
+}
+
+article 
+{
+    float: right;
+    width: 40%;
+    height: 70vh;
+    padding: 1em 1em 0em 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+    background-color: palevioletred;
+}
+
+footer
+{
+    float: bottom;
+    text-align: center;
+    width: 47vw;
+    padding: 0em 1em 0em 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+    background-color: paleturquoise;
+}

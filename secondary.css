@@ -1,0 +1,86 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">);
+
+header, footer, article, aside, backtomain
+{
+    border: 2px solid red;
+}
+
+html 
+{
+    background-image: url(https://drkenfreedmanblog.xyz/image/134110-full_vu96-polygon-dark-triangle-background-red-pattern-wallpaper.jpg);
+}
+
+body 
+{
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+#container 
+{
+    width: 50vw;
+    margin: 0 auto;
+    background-color: darkblue;
+    padding: 15px;
+}
+
+header 
+{
+    height: 50px;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: lightcoral
+}
+
+#portrait_img 
+{
+    display: block;
+    border: 5px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18vw;
+}
+
+aside 
+{
+    float: left;
+    width: 19vw;
+    padding: 1em 1em 0em 1em;
+    height: 60vh;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
+}
+
+article 
+{
+    float: middle;
+    width: 24.75vw;
+    height: 60vh;
+    padding: 1em 1em 0em 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+    background-color: orange;
+}
+
+backtomain
+{
+    float: left;
+    text-align: center;
+    width: 14vw;
+    padding: 0em 1em 0em 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+    background-color: paleturquoise;
+}
+
+footer
+{
+    float: right;
+    text-align: center;
+    width: 18vw;
+    padding: 0em 1em 0em 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+    background-color: palevioletred;
+}
